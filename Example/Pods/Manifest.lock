@@ -1,0 +1,16 @@
+PODS:
+  - JVUIButton (0.1.0)
+
+DEPENDENCIES:
+  - JVUIButton (from `../`)
+
+EXTERNAL SOURCES:
+  JVUIButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVUIButton: a16fc9049d5241029f5c8e77efc4c7d11b04428b
+
+PODFILE CHECKSUM: 99b2df0b19bdafffdcf985f737525fa9efe2e4e8
+
+COCOAPODS: 1.6.0.beta.1

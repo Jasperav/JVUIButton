@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25F0713AA81B371E37912C0C9BBC1E30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		32C7CFE0247A57179B4F381B30DE0B02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3E01CB4941E6A62DCB1EA1B5A07CAA2C /* Pods-JVUIButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BBB311BF296D581DF80C23145909AC /* Pods-JVUIButton_Tests-dummy.m */; };
+		AEB818EB68AFF197CE48A3747B0E4049 /* JVUIButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD9C1C0FB4FF1FF2DBD2F0943995DFD1 /* JVUIButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6DF784B24BCDF8994C237654F7557DB /* JVUIButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFBBF4F5DF8463AD7467898FF717E9 /* JVUIButton-dummy.m */; };
+		C1BC33DBB054364371B23DD700675C8F /* JVUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E38D562B049476A54F46757CE95DCAE /* JVUIButton.swift */; };
+		E7F06D9CDB3DE463B1AF2724C72A45EC /* Pods-JVUIButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87FDD524B7C8D22D8F1B7DA9616C439E /* Pods-JVUIButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		303D68E73C3B03C4D2B4BC54003705B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32BFE085F87A75F0406C784FAEC1B496;
+			remoteInfo = JVUIButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22AF79364C3200469EAD6C21F169728C /* JVUIButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVUIButton-Info.plist"; sourceTree = "<group>"; };
+		370476F17341D29331E27C0FEE2FB90F /* Pods-JVUIButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVUIButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F189163B5E3F3BC2FF6225337E51054 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4F3BA1CB42C99F5C7F3173FCF5749A68 /* JVUIButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVUIButton.modulemap; sourceTree = "<group>"; };
+		512527B96782F5E89FF3B6CD90313BC5 /* Pods-JVUIButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVUIButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5E38D562B049476A54F46757CE95DCAE /* JVUIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVUIButton.swift; path = JVUIButton/Classes/JVUIButton.swift; sourceTree = "<group>"; };
+		60BBB311BF296D581DF80C23145909AC /* Pods-JVUIButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVUIButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		6D11CFED5BF5794E9CFF9A742C387BD9 /* Pods-JVUIButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVUIButton_Tests.modulemap"; sourceTree = "<group>"; };
+		87FDD524B7C8D22D8F1B7DA9616C439E /* Pods-JVUIButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVUIButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8803226369842675A7666BAFB1125A51 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		88BFBBF4F5DF8463AD7467898FF717E9 /* JVUIButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVUIButton-dummy.m"; sourceTree = "<group>"; };
+		918ED37F9EE229BCA65DDEAC399E511D /* JVUIButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVUIButton-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94425FB07C47E2FB9284BF54376EDCE6 /* Pods-JVUIButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVUIButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		969F39FA292CF89CF72B28195EDB7AF0 /* Pods-JVUIButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVUIButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		A0E9B327096C08106D50067148550FD3 /* Pods_JVUIButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVUIButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADA40BD92148435EE7ADF1A016E0969 /* Pods-JVUIButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVUIButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C02DAAF41BF88C5E2476EE99DB7F69A8 /* Pods-JVUIButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVUIButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D013FABA05E2A4BE70A3BEEB8A0C310F /* JVUIButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JVUIButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D33B3B36974E7B95CB2D34A693ACC076 /* JVUIButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVUIButton.xcconfig; sourceTree = "<group>"; };
+		DCB1EA1756C4D76A8DE62D03EAE5ACEA /* JVUIButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVUIButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9C1C0FB4FF1FF2DBD2F0943995DFD1 /* JVUIButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVUIButton-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AE545F02E5D9F5DE3EFDD4655F43C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C7CFE0247A57179B4F381B30DE0B02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB11858A3831EEFE9968798D48C2817E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F0713AA81B371E37912C0C9BBC1E30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C73EC7F01539B8C0306F55AE6624BB /* Pods-JVUIButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6D11CFED5BF5794E9CFF9A742C387BD9 /* Pods-JVUIButton_Tests.modulemap */,
+				C02DAAF41BF88C5E2476EE99DB7F69A8 /* Pods-JVUIButton_Tests-acknowledgements.markdown */,
+				370476F17341D29331E27C0FEE2FB90F /* Pods-JVUIButton_Tests-acknowledgements.plist */,
+				60BBB311BF296D581DF80C23145909AC /* Pods-JVUIButton_Tests-dummy.m */,
+				94425FB07C47E2FB9284BF54376EDCE6 /* Pods-JVUIButton_Tests-frameworks.sh */,
+				969F39FA292CF89CF72B28195EDB7AF0 /* Pods-JVUIButton_Tests-Info.plist */,
+				87FDD524B7C8D22D8F1B7DA9616C439E /* Pods-JVUIButton_Tests-umbrella.h */,
+				BADA40BD92148435EE7ADF1A016E0969 /* Pods-JVUIButton_Tests.debug.xcconfig */,
+				512527B96782F5E89FF3B6CD90313BC5 /* Pods-JVUIButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-JVUIButton_Tests";
+			path = "Target Support Files/Pods-JVUIButton_Tests";
+			sourceTree = "<group>";
+		};
+		204EF009DCA8E1429C66A04744E7E5FE /* JVUIButton */ = {
+			isa = PBXGroup;
+			children = (
+				5E38D562B049476A54F46757CE95DCAE /* JVUIButton.swift */,
+				3BD42E2C1A13DBE0F61BBB31E3AEBC3E /* Pod */,
+				C9B6A26F5FA3CA66F97700E873C54C05 /* Support Files */,
+			);
+			name = JVUIButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3BD42E2C1A13DBE0F61BBB31E3AEBC3E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D013FABA05E2A4BE70A3BEEB8A0C310F /* JVUIButton.podspec */,
+				4F189163B5E3F3BC2FF6225337E51054 /* LICENSE */,
+				8803226369842675A7666BAFB1125A51 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6EA07AD554324850A3A25F7C85840BA4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C73EC7F01539B8C0306F55AE6624BB /* Pods-JVUIButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7246E3AC93F758D469E89E6527552E7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB1EA1756C4D76A8DE62D03EAE5ACEA /* JVUIButton.framework */,
+				A0E9B327096C08106D50067148550FD3 /* Pods_JVUIButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C15DE76969DBC0D1B9D86594DBABB9FC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7246E3AC93F758D469E89E6527552E7B /* Products */,
+				6EA07AD554324850A3A25F7C85840BA4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C15DE76969DBC0D1B9D86594DBABB9FC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				204EF009DCA8E1429C66A04744E7E5FE /* JVUIButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C9B6A26F5FA3CA66F97700E873C54C05 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F3BA1CB42C99F5C7F3173FCF5749A68 /* JVUIButton.modulemap */,
+				D33B3B36974E7B95CB2D34A693ACC076 /* JVUIButton.xcconfig */,
+				88BFBBF4F5DF8463AD7467898FF717E9 /* JVUIButton-dummy.m */,
+				22AF79364C3200469EAD6C21F169728C /* JVUIButton-Info.plist */,
+				918ED37F9EE229BCA65DDEAC399E511D /* JVUIButton-prefix.pch */,
+				DD9C1C0FB4FF1FF2DBD2F0943995DFD1 /* JVUIButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JVUIButton";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20B8B4AE50006C45F1131A1D686701EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F06D9CDB3DE463B1AF2724C72A45EC /* Pods-JVUIButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73835F947649B582B0D22B3A3EED5D35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB818EB68AFF197CE48A3747B0E4049 /* JVUIButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32BFE085F87A75F0406C784FAEC1B496 /* JVUIButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C1BAA0966F12D7794C53CDAC244BC9 /* Build configuration list for PBXNativeTarget "JVUIButton" */;
+			buildPhases = (
+				73835F947649B582B0D22B3A3EED5D35 /* Headers */,
+				E5FEC9F4B0DCDB42BF623D848A21E1C0 /* Sources */,
+				8AE545F02E5D9F5DE3EFDD4655F43C00 /* Frameworks */,
+				5F9A309100734A6AA26F6311866EFA04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVUIButton;
+			productName = JVUIButton;
+			productReference = DCB1EA1756C4D76A8DE62D03EAE5ACEA /* JVUIButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEA9D8A4BD20AA8D74EB1BBA47B21558 /* Pods-JVUIButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4DACE6869B68C6B3B36E136BF0DC6E /* Build configuration list for PBXNativeTarget "Pods-JVUIButton_Tests" */;
+			buildPhases = (
+				20B8B4AE50006C45F1131A1D686701EE /* Headers */,
+				50899C298EA6E54D8302ACF9E0BEDE5E /* Sources */,
+				EB11858A3831EEFE9968798D48C2817E /* Frameworks */,
+				64D279E0E61C2A173A16556A7CBEBDC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD009E7870D76951871C0A5CC4BFB4EB /* PBXTargetDependency */,
+			);
+			name = "Pods-JVUIButton_Tests";
+			productName = "Pods-JVUIButton_Tests";
+			productReference = A0E9B327096C08106D50067148550FD3 /* Pods_JVUIButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7246E3AC93F758D469E89E6527552E7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32BFE085F87A75F0406C784FAEC1B496 /* JVUIButton */,
+				FEA9D8A4BD20AA8D74EB1BBA47B21558 /* Pods-JVUIButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F9A309100734A6AA26F6311866EFA04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D279E0E61C2A173A16556A7CBEBDC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50899C298EA6E54D8302ACF9E0BEDE5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E01CB4941E6A62DCB1EA1B5A07CAA2C /* Pods-JVUIButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5FEC9F4B0DCDB42BF623D848A21E1C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DF784B24BCDF8994C237654F7557DB /* JVUIButton-dummy.m in Sources */,
+				C1BC33DBB054364371B23DD700675C8F /* JVUIButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD009E7870D76951871C0A5CC4BFB4EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVUIButton;
+			target = 32BFE085F87A75F0406C784FAEC1B496 /* JVUIButton */;
+			targetProxy = 303D68E73C3B03C4D2B4BC54003705B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		179083F2E93E5CA6CAB1CE781553184E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 512527B96782F5E89FF3B6CD90313BC5 /* Pods-JVUIButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVUIButton_Tests/Pods-JVUIButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVUIButton_Tests/Pods-JVUIButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C078FC205F277FFD2C32D2A783D8633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D33B3B36974E7B95CB2D34A693ACC076 /* JVUIButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVUIButton/JVUIButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVUIButton/JVUIButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVUIButton/JVUIButton.modulemap";
+				PRODUCT_MODULE_NAME = JVUIButton;
+				PRODUCT_NAME = JVUIButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		83D09FCCE4872B5C371F7A2CFD265448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D33B3B36974E7B95CB2D34A693ACC076 /* JVUIButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVUIButton/JVUIButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVUIButton/JVUIButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVUIButton/JVUIButton.modulemap";
+				PRODUCT_MODULE_NAME = JVUIButton;
+				PRODUCT_NAME = JVUIButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D2705EB0C5C2673968C91C88CEAD9C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BADA40BD92148435EE7ADF1A016E0969 /* Pods-JVUIButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVUIButton_Tests/Pods-JVUIButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVUIButton_Tests/Pods-JVUIButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C1BAA0966F12D7794C53CDAC244BC9 /* Build configuration list for PBXNativeTarget "JVUIButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D09FCCE4872B5C371F7A2CFD265448 /* Debug */,
+				4C078FC205F277FFD2C32D2A783D8633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4DACE6869B68C6B3B36E136BF0DC6E /* Build configuration list for PBXNativeTarget "Pods-JVUIButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2705EB0C5C2673968C91C88CEAD9C89 /* Debug */,
+				179083F2E93E5CA6CAB1CE781553184E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

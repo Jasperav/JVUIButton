@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JVUIButton_Tests' do
+  pod 'JVUIButton', :path => '../'
+  
+  
+end
