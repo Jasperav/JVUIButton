@@ -10,7 +10,7 @@ open class JVUIButton: UIButton {
         setTitle(text, for: .normal)
         
         setTitleColor(textColorNormal, for: .normal)
-        setTitleColor(textColorTouchDown, for: .selected)
+        setTitleColor(textColorTouchDown, for: .highlighted)
     }
     
     public required init?(coder aDecoder: NSCoder) {
