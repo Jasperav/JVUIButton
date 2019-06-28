@@ -14,16 +14,16 @@ open class JVUIButton: UIButton {
     }
     
     public required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        fatalError()
     }
 
 }
 
-//public extension UIButton {
-//    func stretchImage() {
-//        imageView!.contentMode = .scaleAspectFill
-//        
-//        contentHorizontalAlignment = .fill
-//        contentVerticalAlignment = .fill
-//    }
-//}
+public extension UIButton {
+    func stretchImage() {
+        imageView!.contentMode = .scaleAspectFill
+        
+        contentHorizontalAlignment = .fill
+        contentVerticalAlignment = .fill
+    }
+}
