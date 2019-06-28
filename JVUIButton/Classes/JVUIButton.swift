@@ -2,10 +2,10 @@ import UIKit
 
 open class JVUIButton: UIButton {
     
-    public init(text: String, font: UIFont, textColorNormal: UIColor, textColorTouchDown: UIColor) {
+    public init(text: String, font: UIFont.TextStyle, textColorNormal: UIColor, textColorTouchDown: UIColor) {
         super.init(frame: .zero)
         
-        titleLabel!.font = font
+        titleLabel!.font = .preferredFont(forTextStyle: font)
         
         setTitle(text, for: .normal)
         
@@ -16,4 +16,14 @@ open class JVUIButton: UIButton {
     public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+
 }
+
+//public extension UIButton {
+//    func stretchImage() {
+//        imageView!.contentMode = .scaleAspectFill
+//        
+//        contentHorizontalAlignment = .fill
+//        contentVerticalAlignment = .fill
+//    }
+//}
